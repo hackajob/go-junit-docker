@@ -8,7 +8,7 @@ Docker container that runs Go tests and produces a jUnit style report file.
 Run this container with your Go app mounted to /go/src/app
 
 ```bash
-$ docker run --rm -v $PWD:/go/src/app jfrench/go-junit-report
+$ docker run --rm -v $PWD:/go/src/app hackajob/go-junit-docker
 ```
 
 ## Output
