@@ -1,4 +1,4 @@
-FROM golang:1.13
+FROM golang:1.14
 
 RUN apt-get update -y && apt-get install -y php7.3
 
